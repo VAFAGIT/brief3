@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/css/homeStyle.css" />
+    <title>Contact</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+  </head>
+
+  <body>
+    <header class="l-header" id="header">
+      <!--========================navbar===========================-->
+      <nav class="nav bg-grid">
+        <div class="nav_toggle" id="nav-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: -ms-filter"
+          >
+            <path
+              d="M4 4H8V8H4zM10 4H14V8H10zM16 4H20V8H16zM4 10H8V14H4zM10 10H14V14H10zM16 10H20V14H16zM4 16H8V20H4zM10 16H14V20H10zM16 16H20V20H16z"
+            ></path>
+          </svg>
+        </div>
+        <a href="#" class="nav_logo">Rent Me NOw</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="home.html" class="nav_link">HOME</a>
+            </li>
+            <li class="nav_item"><a href="contact.html" class="nav_link">CONTACT</a></li>
+            <li class="nav_item"><a href="reservation.html" class="nav_link">RESERVATION</a></li>
+            <li class="nav_item"><a href="gellery.html" class="nav_link">GALLERY</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--========================end of navbar===========================-->
+      <!-- ==========================reservation section========================== -->
+
+      <section class="contact-section">
+        <form action="#" name="formulaire" class="contact-form">
+          <div class="form-group">
+            <label for="phone">choix véhicule</label>
+            <select class="select" name="véhicule" id="select1">
+                <option>choix véhicule</option>
+                <option>moto</option>
+                <option>compact</option>
+                <option>citadin</option>
+                <option>utilitaire</option>
+                <option>berlin</option>
+                <option>camion</option>
+                <option>engin de chantier</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">choix carburant</label>
+            <select class="select" name="carburant" id="select2">
+                <option>selectioner une carburant</option>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">choix de la Boite De Vitess</label>
+            <select class="select" name="boiteDeVitess" id="select3">
+                <option>selectioner la Boite De Vitess</option>
+                <option></option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Choix de jour</label>
+            <input
+            type="number"
+            id="day"
+            min="1"
+            class="form-control"
+            placeholder="Enter your le nombre de jours"
+          />
+          </div>
+          <div class="form-group">
+            <input type="submit" id="button" value="Reserver" class="btn" />
+          </div>
+          <div class="price">
+            <h3 id="price-text"></h3>
+          </div>
+
+        </form>
+      </section>
+
+      <!-- ===========================Footer =========================== -->
+      <footer class="email-subscribe">
+        <div class="email-subscribe-content">
+            <h2>Go For exclusive offers!</h2>
+            <p>With RentMeNow.com the best price is always guaranteed to you  but you can save even more by subscribing to our newsletter. </p>
+            <form >
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <h3>  © COPYRIGHT 2014 - 2021 RentMeNow. ALL RIGHTS RESERVED. POWERED BY RentMeNow MEDIA </h3>
+
+        </div>
+    </footer>
+      <!-- ====================footer========================= -->
+    </header>
+    <script src="Assets/js/reservation.js"></script>
+    <script src="Assets/js/navbar.js"></script>
+  </body>
+</html>
